@@ -110,7 +110,7 @@ def main():
         idx_cnt += 1
     """
     
-    for epoch in range(0, configs.num_epochs, 1):
+    for epoch in range(0, 6, 1):
         
         num_iters_per_epoch = len(train_dataloader)
 
